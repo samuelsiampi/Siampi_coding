@@ -1,4 +1,5 @@
 ﻿
+using Microsoft.VisualBasic;
 using System.Runtime.Intrinsics.Arm;
 
 namespace Siampi
@@ -8,13 +9,14 @@ namespace Siampi
         static void Main(string[] args)
         {
 
+            /*
             Car siampiCar = new Car();
     
 
             siampiCar.Color = "Orange";
             siampiCar.Model = "Chery";
             siampiCar.Seats = 5;
-
+            siampiCar.MyMethod("John",80);
 
             Console.WriteLine($"Siampi's car color is {siampiCar.Color}.");
             Console.WriteLine($"Siampi's car model is {siampiCar.Model}.");
@@ -28,7 +30,7 @@ namespace Siampi
             nunuCar.Model = "Toyota";
             nunuCar.Seats = 4;
             nunuCar.Safetyrate = 5;
-
+            nunuCar.MyMethod("Simon", 1);
 
             Console.WriteLine($"Nunu's car color is {nunuCar.Color}.");
             Console.WriteLine($"Nunu's car model is {nunuCar.Model}.");
@@ -43,12 +45,17 @@ namespace Siampi
             papaCar.Model = "Honda";
             papaCar.Seats = 7;
             papaCar.Safetyrate = 3;
+            papaCar.MyMethod("Dillywilly", 2);
 
+            Console.WriteLine("My Math Operation!");
+            var result = papaCar.MathOperation(50, 33);
+            Console.WriteLine(result);
 
             Console.WriteLine($"Papa's car color is {papaCar.Color}.");
             Console.WriteLine($"Papa's car model is {papaCar.Model}.");
             Console.WriteLine($"Papa's car seat has {papaCar.Seats} seat.");
             Console.WriteLine($"Papa's car safety rate is {papaCar.Safetyrate} star.");
+            
 
             Console.WriteLine("======================================");
                 
@@ -80,13 +87,20 @@ namespace Siampi
             fruit.Price = inputPrice;
 
             Console.WriteLine($"Your favorite fruit is {fruit.Name} - ${fruit.Price}");
+            */
 
-        
+
+            Car2 chery = new Car2();
+            Console.WriteLine(chery.model);
+            Console.WriteLine(chery.year);
+            Console.WriteLine(chery.name);
+
+
 
 
 
         }
-        
-    }    
-    
+
+    }
+
 }
