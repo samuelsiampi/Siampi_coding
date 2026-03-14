@@ -1,8 +1,4 @@
-﻿
-using Microsoft.VisualBasic;
-using System.Runtime.Intrinsics.Arm;
-
-namespace Siampi
+﻿namespace Siampi
 {
     class Program
     {
@@ -89,11 +85,34 @@ namespace Siampi
             Console.WriteLine($"Your favorite fruit is {fruit.Name} - ${fruit.Price}");
             */
 
-
+            /*
             Car2 chery = new Car2();
             Console.WriteLine(chery.model);
             Console.WriteLine(chery.year);
             Console.WriteLine(chery.name);
+            */
+
+            /*
+            Person person1 = new Person();
+            person1.Name = "Test";
+            Console.WriteLine(person1.Name);        
+            Console.ReadLine();
+            */
+
+            /*
+            Dog dog1 = new Dog();
+            dog1.Name = "Bob";
+            dog1.Voice();
+            Console.WriteLine(dog1.Name);
+            */
+
+            /*
+            Cat cat1 = new Cat();
+            cat1.Name = "Bob";
+            cat1.Voice();
+            Console.WriteLine(cat1.Name);
+            */
+
 
 
 
